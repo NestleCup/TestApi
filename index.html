@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <a href="index.html" class="header__logo"><img src="img/logo.png" alt=""></a>
+
+            <form>
+                <input type="text" class="header__search" placeholder="Поиск">
+
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <div class="movies ">
+
+        </div>
+    </div>
+    <div class="modal" id="modal">
+
+    </div>
+    <section class="form-container">
+        <form id="form" class="form-wrap">
+            <div class="form-wrap__flex">
+                <div class="form-register">
+                    <div class="form-title">
+                        <h1>Зарегистрируйтесь</h1>
+                    </div>
+                    <div class="form_contact">
+                        <a href="#"><img src="img/vk.png" alt="" width="50"></a>
+                        <a href="#"><img src="img/google.png" alt=""></a>
+                        <a href="#"><img src="img/in.png" alt=""></a>
+                    </div>
+                    <p class="form-subtitle">Login now</p>
+                    <div class="form-list">
+                        <input type="text" placeholder="Name" name="name" class="form-input form-input__name">
+                        <input type="email" placeholder="Email" name="Email" class="form-input form-input__email">
+                        <input type="password" placeholder="Password" name="Password" class="form-input form-input__password">
+                    </div>
+                    <div class="checkbox">
+                        <input checked id="formAgreement" type="checkbox" name="agreement" class="checkbox__input">
+                        <label  for="formAgreement" class="checkbox__label">Я даю свое согласие на обработку
+                                персональных данных в соответствии с <a href=""> Условиями</a>*</label>
+                    </div>
+                    <div class="form-button">
+                        <button type="submit">Sing in</button>
+                    </div>
+
+                </div>
+                <div class="form-aside">
+                    <h1 class="form-aside__title">Hello, Friend
+                    </h1>
+                    <p class="form-aside__subtitle">Enter your personal data and start diving into the universes with us
+                    </p>
+                    <div class="form-button">
+                        <button type="submit">Sing in</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="1_script.js"></script>
+</body>
+
+</html>
